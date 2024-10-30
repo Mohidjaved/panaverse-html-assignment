@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div>
+                <img src="logo.jpeg" alt="PanaCloud" class="logo">
+            </div>
+            <div>
+                <ul class="links">
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <form class="contact-form">
+            <fieldset>
+                <legend>Your Details</legend><br>
+            <div id="n-box">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+                <br>
+
+                <div id="e-box">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+            </fieldset>
+<br>
+
+            <fieldset>
+                <legend>Your Review</legend>
+                <br>
+
+                <div class="portion">
+
+                <label for="hear">How did you hear about us?</label>
+                <select name="hear" id="hear">
+                    <option value="google">Google</option>
+                    <option value="friend">Friend</option>
+                    <option value="advertisement">Advertisement</option>
+                </select>
+
+                <br><br>
+
+                <label for="use-again">Would you visit again?</label> <br>
+
+                <input type="radio" id="yes" value="yes">
+                <label for="yes">Yes</label>
+
+                <input type="radio" id="no" value="no">
+                <label for="no">No</label>
+
+                <input type="radio" name="maybe" id="maybe" value="maybe">
+                <label for="maybe">Maybe </label>
+
+                <br><br>
+
+                <label for="comments">Comments: </label> 
+                <br>
+                <textarea name="comments" id="comments" rows="4" cols="40"></textarea>
+
+                <br><br>    
+
+                <input type="checkbox" id="signup" name="signup">
+                <label for="signup">Sign me up for email updates</label>
+
+<br><br>
+                <button type="submit" id="review-submit-button">Submit Review</button>
+            </div>
+            </fieldset>
+        </form>
+    </section>
+    <br>
+     <div class="down-arrow-svg">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="38" color=" rgb(86, 125, 235)" fill="none">
+            <path d="M12 20L12 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M17 15C17 15 13.3175 20 11.9999 20C10.6823 20 6.99997 15 6.99997 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    </div>
+
+<hr>
+<br>
+<hr>
+<br>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d14480.70655989355!2d67.00477170355805!3d24.85781594542051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C%20Pakistan!3m2!1d24.860734299999997!2d67.0011364!4m5!1s0x3eb33e6d06bea525%3A0xca5759c73e8b99ce!2sSaddar%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!3m2!1d24.8615984!2d67.0290744!5e0!3m2!1sen!2sus!4v1730281873840!5m2!1sen!2sus" width="950" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+
+    <footer>
+        <p>Copyright &copy; 2019. All rights reserved </p>
+    </footer>
+</body>
+
+</html>

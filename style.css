@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: rgb(108, 142, 235);
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 65vw;
+    margin:5px 250px ;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    gap: 120px;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    font-family: segoe UI;
+    font-weight: 495;
+    font-size: 20px;
+    display: flex;
+}
+
+.home-image-container{
+    display: flex;
+}
+.home-image{
+    width: 65vw;
+    margin-top: 10px;
+    margin-left: 250px;
+    height: 280px;
+}
+
+.home-text-container{
+    display: flex;
+    margin: 10px 280px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 1000px;
+    position: relative;
+}
+
+footer{
+    background-color: rgb(108, 142, 235);
+    border: 2px solid rgb(68, 94, 165);
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    margin: 100px 250px;
+    position: relative;
+    z-index: 1000;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+
+.profile-image{
+    border: 2px solid rgb(86, 125, 235); 
+    border-radius: 20px;
+    float: right;
+    width: 150px;
+}
+.profile{
+    margin: 20px 300px;
+}
+
+.para-first{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para-second{
+    margin-top: 20px;
+}
+
+.lists ul {
+    margin-left: 20px;
+}
+
+.hr-one{
+    margin-top: 10px;
+}
+
+.hr-two{
+    margin-top: 10px;
+}
+
+.down-arrow-svg{
+    display: flex;
+    justify-content: center;
+}
+
+.yt-video{
+    width: 1200px;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 200px;
+    border-radius: 25px;
+
+}
+
+.first-portfolio-container{
+    margin-top: 40px;
+    position: relative;
+    height: 150px;
+    margin-left: 250px;
+    margin-right: 300px;
+}
+
+.first-portfolio-container img{
+    position: absolute;
+    width: 250px;
+    float: left;
+    height: 150px;
+}
+.first-portfolio-p{
+    position: absolute;
+    margin-left: 270px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.second-portfolio-img{
+    position: absolute;
+    height: 150px;
+}
+
+.contact-form{
+    width: 60vw;
+    margin-left: 250px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.contact-form fieldset legend{
+    margin-left: 20px;
+}
+
+.contact-form #email{
+    margin-bottom: 20px;
+    
+}
+
+#e-box, #n-box{
+    margin-left: 10px;
+}
+
+.portion{
+    margin-left: 20px;
+    
+}
+
+#review-submit-button{
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.map{
+    margin-left: 250px;
+    margin-right: 300px;
+}
